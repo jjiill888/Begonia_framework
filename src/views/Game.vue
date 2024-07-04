@@ -1,6 +1,6 @@
 <script setup lang="ts">import { ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { invoke } from '@tauri-apps/api' // 如果不需要此导入，可以删除
+import { invoke } from '@tauri-apps/api/core' // 如果不需要此导入，可以删除
 
 const router = useRouter()
 
