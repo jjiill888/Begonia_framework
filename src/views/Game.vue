@@ -1,6 +1,6 @@
 <script setup lang="ts">import { ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { invoke } from '@tauri-apps/api/core' // 如果不需要此导入，可以删除
+import { invoke } from '@tauri-apps/api/core' 
 
 const router = useRouter()
 
@@ -209,7 +209,7 @@ const typeMessage = (input: string) => {
 
 <style scoped>
 .bg2 {
-    background-image: url('/images/background/summer2.png');
+    background-image: url('/images/background/summer2.avif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

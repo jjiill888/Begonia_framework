@@ -10,7 +10,7 @@ const gameBgMusic = new Audio()
 const gameBgMusicIsPlaying = ref(true)
 
 onMounted(async () => {
-    gameBgMusic.src = 'http://music.163.com/song/media/outer/url?id=443794.mp3'
+    gameBgMusic.src = '/viedos/Rainfall_Serenade2.mp3'
     gameBgMusic.loop = true
     gameBgMusic.play()
     gameBgMusicIsPlaying.value = true
