@@ -242,6 +242,8 @@ const typeMessage = (input: string) => {
     float: right;
     margin-top: 15px;
 }
+
+
 @keyframes blink {
     0% {
         opacity: 1;
