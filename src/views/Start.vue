@@ -22,7 +22,7 @@ animate()
 <template>
     <div :class="_animate">
         <img
-            src="https://upload.wikimedia.org/wikipedia/commons/3/34/Genshin_Chinese_logo.svg"
+            src="/images/logos/aeg.svg"
             style="width: auto; height: 30%" />
     </div>
 </template>
