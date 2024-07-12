@@ -264,4 +264,12 @@ const typeMessage = (input: string) => {
 .blinking {
     animation: blink 1s infinite;
 }
+.body {
+  height: 100%; 
+  overflow: hidden; /* 隐藏所有滚动条 */
+  margin: 0; /* 移除默认的边距 */
+  padding: 0; /* 移除默认的内边距 */
+}
+
+
 </style>
